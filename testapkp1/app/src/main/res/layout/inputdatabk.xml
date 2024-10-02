@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="687dp"
+        android:layout_height="1149dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557"
+        app:srcCompat="@mipmap/titles_fx"  />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="372dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/orbitron_extrabold"
+        android:scrollbars="vertical"
+        android:text="INPUT BARANG KELUAR"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="316dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="ID Barang"
+        android:inputType="text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="315dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:hint="Jumlah"
+        android:inputType="text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="311dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="308dp"
+        android:ems="10"
+        android:hint="Tanggal"
+        android:inputType="date"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="495dp"
+        android:layout_height="567dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/navigatorbar" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="772dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886"
+        app:srcCompat="@mipmap/logo_home_png_7412"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="304dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#EB1749"
+        android:fontFamily="@font/orbitron_extrabold"
+        android:text="Submit"
+        android:textColorLink="#FF1B1B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="302dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="608dp"
+        android:backgroundTint="#EB1749"
+        android:fontFamily="@font/orbitron_extrabold"
+        android:text="Reset"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="788dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <Button
+        android:id="@+id/HomeButtonBK"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="84dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NextLeftButtonBK"
+        android:layout_width="94dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="72dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NextRightButtonBK"
+        android:layout_width="90dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="72dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
